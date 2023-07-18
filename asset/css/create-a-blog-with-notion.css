@@ -1,0 +1,476 @@
+/* main */
+.ul-w {
+    gap: 0.5rem;
+    margin-top: 5rem;
+}
+
+.svg-foter svg {
+    width: 25px;
+    height: 22px;
+    color: #808080;
+}
+
+.div-li-h {
+    font-size: 14px;
+    color: #595959;
+    font-weight: 600;
+    margin-top: -11px;
+}
+
+/* h1 */
+.h1-main-cr h1 {
+    font-size: 62px;
+    margin-top: 2rem;
+    color: #00001a;
+    line-height: 58px;
+    word-spacing: -7px;
+}
+
+.h1-main-cr p {
+    font-size: 19px;
+    margin-top: 25px;
+}
+
+time {
+    font-size: 16px;
+}
+
+/* end-h1 */
+/* create-a-blog-with-notion */
+.gap-90 {
+    gap: 90px;
+}
+
+.con-img-text {
+    margin-top: 5rem;
+}
+
+/* text-w */
+
+.text-w {
+    width: 25%;
+    /* border: 1px solid rebeccapurple; */
+}
+
+.mg-rdus-w {
+    width: 39%;
+}
+
+.font-t {
+    margin-top: 8px;
+    font-size: 15px;
+}
+
+.font-but {
+    margin-top: 34px !important;
+}
+
+.a-bold {
+    font-size: 18px;
+    line-height: 1.5rem;
+}
+
+.li_box_text {
+    font-size: 16px;
+    color: #696969;
+    margin-bottom: 5px;
+}
+
+.m-t-b-t {
+    margin-left: 25px;
+}
+
+.m-t-ul-13 {
+    margin-top: 13px;
+}
+
+.li_box_text:hover {
+    color: black;
+    font-weight: 600;
+}
+
+/* ul-rdus */
+
+
+.il-rdus {
+
+    width: 45px;
+    height: 45px;
+    border-width: 1px;
+    display: inline-flex;
+    border-radius: 9999px;
+    border: 1px solid #dddddd;
+}
+
+.il-rdus svg {
+    width: 22px;
+    color: #4c4646;
+}
+
+/* end-ul-rduzx */
+/* end-text */
+/* img */
+.img-w {
+    width: 65%;
+}
+
+.img-r {
+    border-radius: 17px;
+}
+
+.text-img {
+    margin: 80px auto;
+}
+
+.w-78 {
+    width: 78%;
+}
+
+.a-nl {
+    color: inherit;
+    word-break: break-word;
+    text-decoration: inherit;
+    border-bottom: 0.05em solid;
+    border-color: var(--fg-color-2);
+    opacity: .7;
+    transition: border-color .1s ease-in, opacity .1s ease-in;
+}
+
+.notion-h {
+    font-size: 30px;
+    line-height: 40px;
+
+
+}
+
+.notion-h {
+    position: relative;
+}
+
+.notion-hash-link {
+    bottom: 51px;
+    left: -19px;
+    display: none;
+    position: absolute;
+}
+
+.notion-h:hover .notion-hash-link {
+    display: block;
+}
+
+.notion {
+    font-size: 30px;
+    position: relative;
+}
+
+.a-nlt {
+    top: -19px;
+    display: none;
+    left: -16px;
+    position: absolute;
+}
+
+.notion:hover .a-nlt {
+    display: block;
+}
+
+/* ul */
+.ul-ls {
+    list-style-type: disc;
+}
+
+.prose-li\:marker\:text-primary-500 * :is(:where(li):not(:where([class~="not-prose"] *)))::marker {
+    color: red;
+
+}
+
+.w-68 {
+    width: 68%;
+    font-size: 20px;
+    line-height: 37px;
+}
+
+.m-t45 {
+    font-size: 18px;
+    margin-top: 45px;
+    line-height: 30px;
+}
+
+.font-17 {
+    font-size: 17px;
+}
+
+.li-hover:hover {
+    color: #4c4646;
+}
+
+.notion-inline-code {
+    color: #eb5757;
+    padding: 0.2em 0.4em;
+    background: var(--bg-color-2);
+    border-radius: 3px;
+    font-size: 85%;
+
+}
+
+/* end-ul */
+.m-t-15 {
+    margin-top: 15px;
+}
+
+.font-13 {
+    font-size: 13px;
+}
+
+.font-14 {
+    font-size: 14px;
+}
+
+.notion-callout {
+    width: 100%;
+    border-radius: 3px;
+    border-width: 1px;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px solid #e5e0e0;
+    background-color: #eeecec;
+    padding: 16px 16px 16px 12px;
+}
+
+.m-t-40 {
+    margin-top: 40px;
+}
+
+.m-t--15 {
+    margin-top: -15px;
+}
+
+.box-text {
+    padding: 37px;
+    border-radius: 18px;
+    background: #5c5f68;
+}
+
+.box-text p {
+    color: #f2f2f2;
+    font-size: 15px;
+}
+
+.box-text h3 {
+    color: white;
+    font-size: 31px;
+    margin-top: 15px;
+    word-spacing: -4px;
+}
+
+.box-text .login {
+    border: none;
+    font-size: 16px;
+    margin-top: 29px;
+    border-radius: 6px;
+    padding-left: 14px;
+    padding-right: 16px;
+
+}
+
+.login:hover {
+    background-color: #1a1a33;
+}
+
+/* svg-text */
+.w-70 {
+    width: 19%;
+}
+
+.w-70 h3 {
+    margin-top: 15px;
+    margin-left: 23px;
+    margin-bottom: 15px;
+}
+
+.font_text {
+    display: block;
+    margin-top: 2rem;
+    word-spacing: -4px;
+}
+
+.a__link {
+    display: block;
+    margin-top: 34px;
+    margin-left: 13px;
+    margin-bottom: 7px;
+}
+
+.p_link {
+    color: gray;
+    font-size: 13px;
+    margin-left: 15px;
+    word-spacing: -4px;
+}
+
+.li_svg_ {
+    width: 25%;
+    padding-top: 7px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 50%;
+    background: transparent;
+}
+
+.m-t .gap-10 {
+    gap: 5px;
+}
+
+.none {
+    display: none;
+}
+
+.li_svg_ svg {
+    width: 19px;
+    color: #4c4646;
+}
+
+.li_svg_:hover {
+    background: rgb(248 242 242);
+}
+
+.h4_text {
+    margin-top: 2rem;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+.m-t-5rem {
+    margin-top: 5rem;
+}
+
+.ul_gap {
+    gap: 10px;
+    margin-top: 15px;
+}
+
+/* end-svg-text */
+/* end-img */
+/* end-create-a-blog-with-notion */
+/* end-main */
+/* footer */
+footer .logo-posion {
+    position: unset;
+}
+
+footer .link-posion {
+    right: 27rem;
+    display: block;
+}
+
+
+
+/* end-footer */
+
+/* media */
+@media only screen and (max-width: 1060px) {
+
+    /* h1 */
+    .h1-main-cr h1 {
+        font-size: 40px;
+    }
+
+    /* end-h1 */
+}
+
+@media only screen and (max-width: 1040px) {
+
+    /* text */
+    .text-w {
+        width: 35%;
+        /* end-text */
+    }
+}
+
+@media only screen and (max-width: 1020px) {
+
+    .p-Create {
+        font-size: 16px !important;
+    }
+}
+
+
+@media only screen and (max-width: 920px) {
+
+    /* text */
+    .text-w {
+        width: 43%;
+    }
+
+    /* end-text */
+}
+
+@media only screen and (max-width: 830px) {
+
+    /* text */
+    .text-w {
+        display: none;
+    }
+
+    /* end-text */
+    /* img-w */
+    .img-w {
+        width: 100%;
+    }
+
+    /* img-w-end */
+}
+
+
+@media only screen and (max-width: 890px) {
+
+    /* footer */
+    footer .link-posion {
+        right: 17rem;
+    }
+
+    /* end-footer */
+}
+
+/* h1 */
+.h1-main-cr h1 {
+    font-size: 30px;
+}
+
+/* end-h1 */
+
+@media only screen and (max-width: 740px) {
+
+    /* footer */
+    footer .link-posion {
+        right: 12rem;
+        font-size: 13px;
+        margin-top: 15px;
+    }
+
+    /* end-footer */
+}
+
+@media only screen and (max-width: 590px) {
+
+    .flex-clum {
+        flex-direction: column;
+    }
+
+    footer .link-posion {
+        right: 11rem;
+        margin-top: 8rem;
+    }
+
+    footer .logo-posion {
+        justify-content: center;
+
+    }
+}
+
+
+/* footer */
+/* end-footer */
+
+
+/* end-media */
