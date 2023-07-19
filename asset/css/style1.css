@@ -112,9 +112,9 @@ ul {
 }
 
 .hover_header {
-    font-size: 12px !important;
-    width: 72px;
-    height: 30px;
+    font-size: 15px !important;
+    width: 80px;
+    height: 36px;
     border-radius: 7px;
     text-align: center;
     background-color: transparent;
@@ -133,6 +133,10 @@ ul {
     gap: 30px;
 }
 
+.gap-23 {
+    gap: 23px;
+}
+
 .link-header {
     font-weight: 600;
     --tw-text-opacity: 1;
@@ -145,7 +149,7 @@ ul {
 }
 
 .link-posion {
-    right: 20rem;
+    right: 21rem;
     position: absolute;
 }
 
@@ -188,6 +192,20 @@ ul {
     border-radius: 10px;
     --tw-border-opacity: 1;
     border-color: rgb(203 213 225 / var(--tw-border-opacity));
+}
+
+.btn-primry {
+
+    display: flex !important;
+    padding: 2px !important;
+    border-radius: 4px !important;
+    align-items: center !important;
+    justify-content: center !important;
+    border: 1px solid gray !important;
+}
+
+.show {
+    display: none;
 }
 
 .mask-activ {
@@ -273,6 +291,7 @@ ul {
 }
 
 .main-text h1 {
+
     line-height: 1;
     font-size: 3rem;
     margin-top: 30px;
@@ -358,7 +377,7 @@ footer p {
 @media only screen and (max-width: 1085px) {
 
     /* hamberger-mano */
-    .gamberger {
+    .show {
         display: flex;
     }
 
