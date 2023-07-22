@@ -1,4 +1,7 @@
 /* main */
+.w-90-header {
+    width: 95%;
+}
 
 /* text-header */
 .contener-blog {
@@ -7,10 +10,19 @@
     /* border: 1px solid darkblue; */
 }
 
+.color-btn-header {
+    background-color: #5f5e61;
+}
+
+.color-btn-header:hover {
+    background-color: #45424d;
+}
+
 .mainblog h1 {
-    font-size: 4rem;
-    line-height: 100px;
-    word-spacing: -10px;
+    font-size: 5rem;
+    line-height: 75px;
+    font-weight: 600;
+    word-spacing: -19px;
 }
 
 .mainblog h2 {
@@ -22,6 +34,11 @@
 .img-b img {
     margin-top: 3rem;
     width: 45% !important;
+}
+
+.link-posion-blog {
+    position: absolute !important;
+    right: 35rem !important;
 }
 
 /*  a-header */
@@ -60,6 +77,15 @@
     margin-top: 2rem;
 }
 
+.contener-sd {
+    width: 90% !important;
+}
+
+.link-header-color svg {
+    width: 22px;
+    margin-top: 11px;
+}
+
 /* emd-a-header */
 /* text-header */
 /* img-box */
@@ -70,9 +96,11 @@
     border-radius: 16px;
     /* border: 1px solid rebeccapurple; */
 }
+
 .text-link {
     display: block;
 }
+
 .img-box img {
     height: 9rem;
     object-fit: cover;
@@ -85,7 +113,7 @@
     font-size: 16px;
     color: #6a6a6a;
 }
- 
+
 
 .m-t10 {
     margin-top: 10px !important;
@@ -95,28 +123,58 @@
     gap: 70px;
     grid-row-gap: 0px;
     grid-template-columns: repeat(3, minmax(0, 1fr));
-   
+
 }
 
 .m-b15 {
     margin-bottom: 15px;
 }
+
 /* end-img-box */
 /* end-main */
 /* footer */
 .p-t-5 {
     padding: 20px;
 }
+
 .footer {
     grid-template-columns: repeat(3, minmax(0, 1fr));
 }
+
 .logo-end {
-justify-content: end;
+    justify-content: end;
+
 }
+
 /* end-footer */
 
 /* media */
+@media only screen and (max-width: 1112px) {
+
+    /* header */
+    .link-posion-blog {
+        right: 24rem !important;
+    }
+
+    /* end-header */
+    .mainblog h1 {
+        font-size: 65px;
+    }
+
+}
+
+@media only screen and (max-width: 1080px) {
+
+    .link-posion-blog {
+        display: none;
+    }
+
+
+}
+
 @media only screen and (max-width: 1012px) {
+
+
 
     /* item */
     .grid-item {
@@ -125,6 +183,7 @@ justify-content: end;
 
     /* end-item */
 }
+
 .flex-clum {
     flex-direction: column;
     gap: 30PX;
@@ -140,7 +199,6 @@ justify-content: end;
 
     .mainblog h2 {
         font-size: 18px;
-        text-align: center;
     }
 
     .contener-blog img {
@@ -168,6 +226,9 @@ justify-content: end;
     }
 
     /* end-item */
+    .img-b img {
+        width: 100% !important;
+    }
 }
 
 @media only screen and (max-width: 505px) {

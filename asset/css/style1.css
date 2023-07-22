@@ -113,18 +113,18 @@ ul {
 
 .hover_header {
     font-size: 15px !important;
-    width: 80px;
-    height: 36px;
-    border-radius: 7px;
-    text-align: center;
-    background-color: transparent;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 80px !important;
+    height: 36px !important;
+    border-radius: 7px !important;
+    text-align: center !important;
+    background-color: transparent !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
 }
 
 .hover_header:hover {
-    background-color: aliceblue;
+    background-color: aliceblue !important;
 }
 
 /* end logo */
@@ -159,19 +159,55 @@ ul {
     gap: 15px;
 }
 
-.login {
-    padding-top: 7px;
-    font-weight: 600;
-    border-width: 1px;
-    padding-left: 19px;
-    text-align: center;
-    padding-bottom: 7px;
-    padding-right: 19px;
-    display: inline-block;
-    border-radius: 0.75rem;
-    --tw-border-opacity: 1;
+.login-btn {
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-bottom: 5px;
+    border-radius: 13px !important;
 }
 
+.btn-black {
+    border: 0;
+}
+
+.border {
+    border-width: 1px;
+}
+
+.color-btn-header {
+    background-color: #5f5e61;
+}
+
+.text-wit {
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+    --tw-bg-opacity: 1;
+    background-color: rgb(15 23 42 / var(--tw-bg-opacity));
+}
+
+.border {
+    border: 1px solid #e2e8f0;
+    border-color: rgb(203 213 225 / var(--tw-border-opacity));
+}
+
+.login {
+    padding-top: 8px;
+    font-weight: 600;
+    border-width: 1px;
+    padding-left: 25px;
+    text-align: center;
+    /* padding-bottom: 5px; */
+    padding-right: 25px;
+    display: inline-block;
+    border-radius: 7px;
+    --tw-border-opacity: 1;
+}
+.btn-header-b:hover {
+    background-color: rgb(26, 26, 31);
+}
+.border-haver:hover {
+    border: 1px solid black;
+}
 .border {
     border: 1px solid #e2e8f0;
     border-color: rgb(203 213 225 / var(--tw-border-opacity));
@@ -291,11 +327,11 @@ ul {
 }
 
 .main-text h1 {
-
     line-height: 1;
-    font-size: 3rem;
+    font-size: 55px;
     margin-top: 30px;
     font-weight: 700;
+    word-spacing: -5px;
 }
 
 .min-h2 {
@@ -309,6 +345,28 @@ ul {
 /* img-ul-muno */
 .img-ul-muno {
     margin-top: 4rem;
+}
+
+.hover-text {
+    display: none;
+    margin-right: 50px;
+    margin-top: 5px;
+     
+}
+
+.hover-text svg {
+    width: 16px;
+
+    margin-top: -34px;
+    margin-left: 5px;
+}
+
+.hover-text-h:hover .hover-text {
+    display: block;
+}
+
+.contener-78 {
+    width: 78%;
 }
 
 .p-ul {
@@ -342,7 +400,7 @@ ul {
 }
 
 .sms-posion {
-    left: 65rem;
+    left: 100rem;
     bottom: 5px;
 }
 

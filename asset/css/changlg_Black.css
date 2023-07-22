@@ -1,0 +1,63 @@
+.color-blak-header {
+    background-color: rgb(2, 2, 3) !important;
+}
+
+/* logo */
+.logo-black {
+    color: white !important;
+    margin-top: 5px !important;
+    margin-left: 6px !important;
+}
+
+/* a-header */
+
+.a-heafer-black {
+    color: #89888f;
+}
+
+.a-heafer-black:hover {
+    background-color: rgb(77, 77, 94) !important;
+}
+
+/* end-a-header */
+/* btn-heder */
+.btn-black {
+    border: 0;
+}
+
+.link-sv svg {
+    color: white;
+}
+
+/* end-btn-header */
+
+/* end-logo */
+/* main */
+/* h1 */
+.white {
+    color: white;
+}
+
+.m-t--0 {
+    margin-top: 0;
+}
+
+/* end-h1 */
+/* btn-tmz */
+.color-btn-gry {
+    background: #404250;
+}
+
+.color-btn-gry:hover {
+    color: #404250;
+    background-color: white;
+}
+
+/* end-btn-tmz */
+/* input-color */
+.color-input {
+    background-color: rgb(18 21 36);;
+}
+/* end-input-clor */
+/* box-meno-box */
+/* end-main */
