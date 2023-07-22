@@ -202,12 +202,15 @@ ul {
     border-radius: 7px;
     --tw-border-opacity: 1;
 }
+
 .btn-header-b:hover {
     background-color: rgb(26, 26, 31);
 }
+
 .border-haver:hover {
     border: 1px solid black;
 }
+
 .border {
     border: 1px solid #e2e8f0;
     border-color: rgb(203 213 225 / var(--tw-border-opacity));
@@ -351,7 +354,7 @@ ul {
     display: none;
     margin-right: 50px;
     margin-top: 5px;
-     
+
 }
 
 .hover-text svg {
@@ -386,7 +389,33 @@ ul {
     grid-row-gap: 30px;
     grid-template-columns: repeat(2, minmax(0, 1fr));
 }
+/* transform */
 
+.transform {
+    transition: dily 0.3s ease;
+    transform: translateY(0px);
+    animation: dily;
+}
+
+.transform:hover {
+    animation: dily 2s infinite;
+    
+
+}
+
+@keyframes dily {
+    0% {
+        transform: translateY(0px);
+    }
+
+    70% {
+        transform: translateY(-20px);
+    }
+    100%{
+        transform: translateY(1px);
+    }
+}
+/* end-transform */
 /* end-img-ul-muno */
 /* sms */
 .sms {
