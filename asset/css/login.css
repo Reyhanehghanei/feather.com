@@ -1,0 +1,40 @@
+/* login-form */
+.login-form {
+    width: 40%;
+    /* border: 1px solid red; */
+}
+
+.login-text {
+    font-size: 20px;
+}
+
+/* a-logo-p */
+.a-logo-p {
+    color: rgb(16, 16, 20);
+}
+
+/* end-a-logo-p */
+/* login_a_log */
+.login_a_log {
+    margin-top: 8px;
+}
+
+/* end-login_a_log */
+/* input-login */
+.input-login {
+    width: 100%;
+    margin-top: 20px;
+    padding: 17px;
+    border-radius: 9px;
+    border: 1px solid gray;
+}
+
+.login-btn-page {
+    width: 100%;
+    margin-top: 22px;
+    padding-top: 8px !important;
+}
+
+/* end-input-login */
+
+/* end-login-form */
